@@ -59,7 +59,20 @@ main {
 .title {
   margin: 15px 0 5px;
 }
-
+@media screen and (max-width: 768px) {
+  main{
+    width: 100%;
+    display: block;
+    margin: 50px 0;
+  }
+  .step-box{
+    width: 90%;
+    margin:0 auto 20px;
+  }
+  .step-box:last-child{
+    margin:0 auto 0;
+  }
+}
 footer {
   height: 50px;
   background-color: #aaa;
